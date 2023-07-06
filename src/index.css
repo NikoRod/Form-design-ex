@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-glass {
+  @apply bg-[#3f3e3d23] shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-[10.2px]; 
+}
+
+.bg-glass-input {
+  @apply bg-gradient-to-r from-[#072e53f3] to-[#434443e3] shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-[5.1px] border-solid border border-[#39383914];
+}
